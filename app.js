@@ -7,7 +7,7 @@ function saveBookmark(event) {
     // prevent default form behaviour
     event.preventDefault();
 
-    // grad form values
+    // grab form values
     let siteName = document.getElementById('siteName').value;
     let siteURL = document.getElementById('siteURL').value;
 
@@ -78,8 +78,8 @@ function fetchBookmarks() {
 
         bookmarksResults.innerHTML += '<div class="well">' +
             '<h3>' + name +
-            '<a class="btn bnt-default" target="_blank" href="' + url + '">Visit</a>' +
-            '<a onclick="deleteBookmark(\'' + url + '\')" class="btn bnt-danger"  href="#">Delete</a>'
+            '<a class="btn" target="_blank" href="' + url + '">Visit</a>' +
+            '<a onclick="deleteBookmark(\'' + url + '\')" id="delete"  href="#">Delete</a>'
         '</h3>' +
         '</div>'
 

@@ -1,15 +1,145 @@
-.container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: auto;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#myForm{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: auto;
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.jumbotron {
+    background: rgb(243, 243, 243);
+    padding: 30px;
+    height: auto;
+    margin-top: 30px;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+.jumbotron h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#myForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 30px;
+}
+
+.form-group {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group label {
+    width: 20%;
+    font-weight: 700;
+    font-size: .8rem;
+    text-transform: uppercase;
+}
+
+.form-group input {
+    display: flex;
+    width: 80%;
+    margin-left: 30px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input::placeholder {
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.button {
+    margin-top: 40px;
+    padding: 20px;
+    width: 30%;
+    cursor: pointer;
+    border: none;
+    background: #1487bd;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    outline: none;
+    border-radius: 10px;
+}
+
+.links-container {
+    display: flex;
+    width: 80%;
+    margin-top: 30px;
+    justify-content: center;
+    background: rgb(202, 199, 199);
+    padding: 50px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#bookmarksResults {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.well {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.well a {
+    margin-left: 50px;
+}
+
+.btn {
+    background: #077210;
+    color: #fff;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#delete {
+    background: #e23c09;
+    color: #fff;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    margin-top: 50px;
 }
