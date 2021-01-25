@@ -19,3 +19,5 @@
 ## To run the project locally just clone it using this command: 
 
 *git clone https://github.com/Trend20/bookmarker-application.git*
+
+* Then open the index.html file in your favorite browser. 
